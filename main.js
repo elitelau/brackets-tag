@@ -208,38 +208,38 @@ define(function (require, exports, module) {
     }
                                       
     CommandManager.register('tagBook', command_id_list['tagBook'], surround_with_tagBook);
-    editMenu.addMenuItem('tagBook', "Ctrl-Shift-B");
+    editMenu.addMenuItem('tagBook', command_shortcut_list['tagBook']);
 
     CommandManager.register('tagChapter', command_id_list['tagChapter'], surround_with_tagChapter);
-    editMenu.addMenuItem('tagChapter', "Ctrl-Shift-H");
+    editMenu.addMenuItem('tagChapter', command_shortcut_list['tagChapter']);
 
     CommandManager.register('tagText', command_id_list['tagText'], surround_with_tagText);
-    editMenu.addMenuItem('tagText', "Ctrl-Shift-T");
+    editMenu.addMenuItem('tagText', command_shortcut_list['tagText']);
 
     CommandManager.register('tagAuthor', command_id_list['tagAuthor'], surround_with_tagAuthor);
-    editMenu.addMenuItem('tagAuthor', "Ctrl-Shift-A");
+    editMenu.addMenuItem('tagAuthor', command_shortcut_list['tagAuthor']);
 
     CommandManager.register('tagZ0', command_id_list['tagZ0'], surround_with_tagZ0);
-    editMenu.addMenuItem('tagZ0', "Ctrl-Shift-Z");
+    editMenu.addMenuItem('tagZ0', command_shortcut_list['tagZ0']);
 
     CommandManager.register('tagZ1', command_id_list['tagZ1'], surround_with_tagZ1);
-    editMenu.addMenuItem('tagZ1', "Ctrl-Shift-X");
+    editMenu.addMenuItem('tagZ1', command_shortcut_list['tagZ1']);
 
     CommandManager.register('tagZ2', command_id_list['tagZ2'], surround_with_tagZ2);
-    editMenu.addMenuItem('tagZ2', "Ctrl-Shift-C");
+    editMenu.addMenuItem('tagZ2', command_shortcut_list['tagZ2']);
 
     CommandManager.register('tagS0', command_id_list['tagS0'], surround_with_tagS0);
-    editMenu.addMenuItem('tagS0', "Ctrl-Shift-S");
+    editMenu.addMenuItem('tagS0', command_shortcut_list['tagS0']);
 
     CommandManager.register('tagS1', command_id_list['tagS1'], surround_with_tagS1);
-    editMenu.addMenuItem('tagS1', "Ctrl-Shift-D");
+    editMenu.addMenuItem('tagS1', command_shortcut_list['tagS1']);
 
     CommandManager.register('tagS2', command_id_list['tagS2'], surround_with_tagS2);
-    editMenu.addMenuItem('tagS2', "Ctrl-Shift-F");
+    editMenu.addMenuItem('tagS2', command_shortcut_list['tagS2']);
 
     CommandManager.register('tagExtra', command_id_list['tagExtra'], surround_with_tagExtra);
-    editMenu.addMenuItem('tagExtra', "Ctrl-Shift-L");
+    editMenu.addMenuItem('tagExtra', command_shortcut_list['tagExtra']);
 
     CommandManager.register('tagSegment', command_id_list['tagSegment'], surround_with_tagSegment);
-    editMenu.addMenuItem('tagSegment', "Ctrl-Shift-K");
+    editMenu.addMenuItem('tagSegment', command_shortcut_list['tagSegment']);
 });
